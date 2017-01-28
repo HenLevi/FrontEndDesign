@@ -8,10 +8,10 @@ and open the template in the editor.
     Author     : heni8
 */
 
-
 /*navbar----------------------------------------------------------------------*/
 .navbar_information{
     background-color: rgba(98,185,176,0.8);
+    margin-bottom: 0px;
     /*    color:white;*/
 }
 
@@ -24,44 +24,27 @@ and open the template in the editor.
 
 .colorframe{
     background-color: rgba(98,185,176,0.8);
-
 }
-
-.nav_color{
+.nav_color   {
     color: white;
+}
+.head_center{
+    color:white;
+    background-color:  #e2534b;
+
+width:200px; 
+  height:70px;
+    margin-top: 190px;margin-left: 550px;margin-top: 110px;
+    
+}
+.below_head_center{
+     color:white;
+   background-color: rgba(0,0,0,0.5);
+width:600px; 
+  height:70px;
+  margin-top: 190px;margin-left: 350px;
 
 }
-
-/*for slideshow*/
-/*.information_showslide1{
-    background: url("../images/photo1.jpg") no-repeat;
-
-
-}
-.information_showslide2{
-    background: url("../images/photo2.jpg") no-repeat;
-
-
-}
-.information_showslide3{
-
-    background: url("../images/photo3.jpg") no-repeat;
-
-}
-
-.information_showslide4{
-    background: url("../images/photo4.jpg") no-repeat;
-
-
-}*/
-
-
-
-
-
-/*end silde show*/
-
-
 
 .frame_orange{
     margin-left: 400px;
@@ -69,10 +52,6 @@ and open the template in the editor.
     width:322px;
     height: 38px;
 }
-
-
-
-
 
 /*this color for middle page*/
 .greyBox { 
@@ -92,7 +71,6 @@ and open the template in the editor.
 .font_h3_some{
     color: #7f8c8c;
 }
-
 .whithbox{
     /*    width: 273px;*/
     height: 313px;
@@ -101,42 +79,56 @@ and open the template in the editor.
     padding-top: 50px;
 }
 /*hover*/
-
 .nav_hover:hover .nav_color{
     background-color: #e2534b;
     color: white;
 }
-
+.nav_color1{
+    background-color: rgba(98,185,176,0.8);
+}
+.nav_hover_green:hover .colorframe{
+    /*    background-color: pink;*/
+    background-color: rgba(98,185,176,0.8);
+    color: white;
+}
+.carousel-indicators li{
+    border-radius: 1px;
+    width:50px;
+    background-color: gray;
+}
+.carousel-indicators .active{
+    background-color: #e2534b;
+    border-radius: 1px;
+    width:50px;
+}
+middle_font{  
+}
 .font_hover:hover .icon_middle{
     color:#e2534b;
 }
 .button_hover:hover .button_design_green{
     background-color: #e2534b;
 }
-
-
 .icon_middle{
 
     color: rgba(98,185,176,0.8);
 }
-
 .arrow_red{
     color:red;
 }
-
 .red_font{
-    color:red;
+    color:#e2534b;
 }
-
+.red_backcolor{
+    background-color:  #e2534b;
+}
 .information_middle{
     background-color:#f3f3f3;
 }
-
 .information_middle_1{
     /*    background-color: #1b6d85;*/
     background-color: rgb(236,236,236);
 }
-
 .information_bubble_think
 {   
     background: url("../images/Path_1.png") no-repeat;
@@ -145,14 +137,12 @@ and open the template in the editor.
     height: 147px;
 
 }
-
 .information_ruller_middle
 {
     background: url("../images/Path_0.png") no-repeat;
     background-position: 0px -2px;
 
 }
-
 /*in the middle end*/
 .information_ruller_down
 {
@@ -161,13 +151,11 @@ and open the template in the editor.
     background-color: rgba(98,185,176,0.8);
 
 }
-
 .containersize{
     height: 500px;
     position: relative;
 }
 /*for "your image"*/
-
 .information_pic_center{
     background: url("../images/Browsertooenterls.png") no-repeat;
     width: 570px;
@@ -176,7 +164,6 @@ and open the template in the editor.
     position: absolute;
 
 }
-
 .information_pic_left{
     background: url("../images/Browserleft.png") no-repeat;
     background-color: rgba(98,185,176,0.8);
@@ -185,7 +172,6 @@ and open the template in the editor.
     left: 0;bottom: 0;top:0;margin: auto;
     position: absolute;
 }
-
 .information_pic_right{
     background: url("../images/Browserright.png") no-repeat;
     width: 370px;
@@ -195,11 +181,9 @@ and open the template in the editor.
     overflow-x: hidden;
 
 }
-
 .color_gray_center{
     color: #7f8c8c;
 }
-
 /*in the middle end*/
 .font_middle
 { 
