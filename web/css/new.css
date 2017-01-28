@@ -12,61 +12,59 @@ and open the template in the editor.
 /*navbar----------------------------------------------------------------------*/
 .navbar_information{
     background-color: rgba(98,185,176,0.8);
+    /*    color:white;*/
 }
 
 .information_ruller_up
 {
     background: url("../images/Path_24.png") no-repeat;
-    background-position: bottom;
-    /*    background-color:gray;*/
-    /*    background-color: black;*/
-    /*       background-color:#f3f3f3; */ 
+    background-position:left 0px bottom -2px;
+    /*  background-position: 0px -2px;*/
+}
+
+.colorframe{
+    background-color: rgba(98,185,176,0.8);
+
+}
+
+.nav_color{
+    color: white;
+
 }
 
 /*for slideshow*/
-.information_showslide1{
+/*.information_showslide1{
     background: url("../images/photo1.jpg") no-repeat;
-    width:400px;
-    height: 70px;
-    /*    background-position: 0px -2px;
-        background-color:gray;*/
+
 
 }
 .information_showslide2{
     background: url("../images/photo2.jpg") no-repeat;
-    width:400px;
-    height: 70px;
-    /*    background-position: 0px -2px;
-        background-color:gray;*/
+
 
 }
 .information_showslide3{
 
     background: url("../images/photo3.jpg") no-repeat;
-    width:400px;
-    height: 70px;
-    /*    background-position: 0px -2px;
-        background-color:gray;*/
+
 }
+
 .information_showslide4{
     background: url("../images/photo4.jpg") no-repeat;
-    width:400px;
-    height: 70px;
-    /*    background-position: 0px -2px;
-        background-color:gray;*/
 
-}
 
-/*.vestibulumpic{
-    background: url("../images/VESTIBULLUM.png") no-repeat;
-    width:322px;
-    height: 38px;
 }*/
+
+
+
+
+
+/*end silde show*/
+
+
+
 .frame_orange{
     margin-left: 400px;
-    /*          margin-bottom: 100px;*/
-    /*            margin-top: 400px;*/
-    /*background-position: bottom;*/
     background-color: orange;
     width:322px;
     height: 38px;
@@ -88,14 +86,11 @@ and open the template in the editor.
 }
 .button_design_green{
     width: 8em;  height: 3em;
- background-color:  rgba(98,185,176,0.8);
- 
+    background-color:  rgba(98,185,176,0.8);
+
 }
 .font_h3_some{
     color: #7f8c8c;
-
-    /*    font-size: 28px;*/
-
 }
 
 .whithbox{
@@ -105,6 +100,20 @@ and open the template in the editor.
     border-radius: 6px;
     padding-top: 50px;
 }
+/*hover*/
+
+.nav_hover:hover .nav_color{
+    background-color: #e2534b;
+    color: white;
+}
+
+.font_hover:hover .icon_middle{
+    color:#e2534b;
+}
+.button_hover:hover .button_design_green{
+    background-color: #e2534b;
+}
+
 
 .icon_middle{
 
@@ -124,7 +133,8 @@ and open the template in the editor.
 }
 
 .information_middle_1{
-    background-color: #1b6d85;
+    /*    background-color: #1b6d85;*/
+    background-color: rgb(236,236,236);
 }
 
 .information_bubble_think
@@ -133,23 +143,15 @@ and open the template in the editor.
     background-size: auto;
     width: 273px;
     height: 147px;
-    /*    background-position: 0px -2px;*/
-    /*    <img src="images/Path.png" alt="ruler" style="">*/
+
 }
 
 .information_ruller_middle
 {
     background: url("../images/Path_0.png") no-repeat;
     background-position: 0px -2px;
-    background-color:gray;
-    /*    background-color: black;*/
-    /*       background-color:#f3f3f3; */ 
-}
 
-/*the picture close to end -image pic*/
-/*.picture_icon{
-    color:whitesmoke;
-}*/
+}
 
 /*in the middle end*/
 .information_ruller_down
@@ -157,7 +159,7 @@ and open the template in the editor.
     background: url("../images/Path.png") no-repeat;
     background-position: 0px -2px;
     background-color: rgba(98,185,176,0.8);
-    /*    <img src="images/Path.png" alt="ruler" style="">*/
+
 }
 
 .containersize{
@@ -207,7 +209,7 @@ and open the template in the editor.
 
 /*for footer----------------------------------------------------*/
 .typeSize{
-    margin-top: 20px;
+    /*    margin-top: 20px;*/
     color: white;
 }
 
