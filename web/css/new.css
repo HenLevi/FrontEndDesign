@@ -37,6 +37,7 @@ width:200px;
     margin-top: 190px;margin-left: 550px;margin-top: 110px;
     
 }
+
 .below_head_center{
      color:white;
    background-color: rgba(0,0,0,0.5);
@@ -91,6 +92,9 @@ width:600px;
     background-color: rgba(98,185,176,0.8);
     color: white;
 }
+
+
+
 .carousel-indicators li{
     border-radius: 1px;
     width:50px;
@@ -101,10 +105,15 @@ width:600px;
     border-radius: 1px;
     width:50px;
 }
-middle_font{  
+middle_font{ 
+    bottom: 0px;
 }
 .font_hover:hover .icon_middle{
     color:#e2534b;
+}
+.item.active{
+/*    top: 3px;*/
+/*top:10px;*/
 }
 .button_hover:hover .button_design_green{
     background-color: #e2534b;
