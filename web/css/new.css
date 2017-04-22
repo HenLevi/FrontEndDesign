@@ -19,7 +19,6 @@ and open the template in the editor.
 {
     background: url("../images/Path_24.png") no-repeat;
     background-position:left 0px bottom -2px;
-    /*  background-position: 0px -2px;*/
 }
 
 .colorframe{
@@ -30,20 +29,19 @@ and open the template in the editor.
 }
 .head_center{
     color:white;
-    background-color:  #e2534b;
-
-width:200px; 
-  height:70px;
+    background-color:#e2534b;
+    width:200px; 
+    height:70px;
     margin-top: 190px;margin-left: 550px;margin-top: 110px;
-    
+
 }
 
 .below_head_center{
-     color:white;
-   background-color: rgba(0,0,0,0.5);
-width:600px; 
-  height:70px;
-  margin-top: 190px;margin-left: 350px;
+    color:white;
+    background-color: rgba(0,0,0,0.5);
+    width:600px; 
+    height:70px;
+    margin-top: 190px;margin-left: 350px;
 
 }
 
@@ -67,7 +65,6 @@ width:600px;
 .button_design_green{
     width: 8em;  height: 3em;
     background-color:  rgba(98,185,176,0.8);
-
 }
 .font_h3_some{
     color: #7f8c8c;
@@ -92,9 +89,6 @@ width:600px;
     background-color: rgba(98,185,176,0.8);
     color: white;
 }
-
-
-
 .carousel-indicators li{
     border-radius: 1px;
     width:50px;
@@ -111,15 +105,10 @@ middle_font{
 .font_hover:hover .icon_middle{
     color:#e2534b;
 }
-.item.active{
-/*    top: 3px;*/
-/*top:10px;*/
-}
 .button_hover:hover .button_design_green{
     background-color: #e2534b;
 }
 .icon_middle{
-
     color: rgba(98,185,176,0.8);
 }
 .arrow_red{
@@ -135,7 +124,6 @@ middle_font{
     background-color:#f3f3f3;
 }
 .information_middle_1{
-    /*    background-color: #1b6d85;*/
     background-color: rgb(236,236,236);
 }
 .information_bubble_think
@@ -144,13 +132,11 @@ middle_font{
     background-size: auto;
     width: 273px;
     height: 147px;
-
 }
 .information_ruller_middle
 {
     background: url("../images/Path_0.png") no-repeat;
     background-position: 0px -2px;
-
 }
 /*in the middle end*/
 .information_ruller_down
@@ -158,7 +144,6 @@ middle_font{
     background: url("../images/Path.png") no-repeat;
     background-position: 0px -2px;
     background-color: rgba(98,185,176,0.8);
-
 }
 .containersize{
     height: 500px;
@@ -171,7 +156,6 @@ middle_font{
     height: 360px;
     left: 0;bottom: 0;top:0;margin: auto;right: 0;
     position: absolute;
-
 }
 .information_pic_left{
     background: url("../images/Browserleft.png") no-repeat;
@@ -188,7 +172,6 @@ middle_font{
     right: 0;bottom: 0;top:0;margin: auto;
     position: absolute;
     overflow-x: hidden;
-
 }
 .color_gray_center{
     color: #7f8c8c;
@@ -199,13 +182,10 @@ middle_font{
     color: rgba(0,0,0,0.5);
 }
 
-
 /*for footer----------------------------------------------------*/
 .typeSize{
-    /*    margin-top: 20px;*/
     color: white;
 }
-
 /*icon of footer*/
 .icon{
     color: white;
@@ -214,7 +194,6 @@ middle_font{
 .space_icon{
     margin-left: 10px;
 }
-
 .footer{
     position: absolute;
     right: 0;
@@ -223,23 +202,17 @@ middle_font{
     padding: 1rem;
     background-color: #62b9b0;
 }
-
-
 html {
     height: 100%;
     box-sizing: border-box;
 }
-
 *,
 *:before,
 *:after {
     box-sizing: inherit;
 }
-
 body {
     position: relative;
-    margin: 0;
-    /*    padding-bottom: 6rem;*/
+    /*    margin: 0;*/
     min-height: 100%;
-
 }
