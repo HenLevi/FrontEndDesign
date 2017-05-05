@@ -1,0 +1,218 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2017, 2:54:50 PM
+    Author     : heni8
+*/
+
+/*navbar----------------------------------------------------------------------*/
+.navbar_information{
+    background-color: rgba(98,185,176,0.8);
+    margin-bottom: 0px;
+    /*    color:white;*/
+}
+
+.information_ruller_up
+{
+    background: url("../images/Path_24.png") no-repeat;
+    background-position:left 0px bottom -2px;
+}
+
+.colorframe{
+    background-color: rgba(98,185,176,0.8);
+}
+.nav_color   {
+    color: white;
+}
+.head_center{
+    color:white;
+    background-color:#e2534b;
+    width:200px; 
+    height:70px;
+    margin-top: 190px;margin-left: 550px;margin-top: 110px;
+
+}
+
+.below_head_center{
+    color:white;
+    background-color: rgba(0,0,0,0.5);
+    width:600px; 
+    height:70px;
+    margin-top: 190px;margin-left: 350px;
+
+}
+
+.frame_orange{
+    margin-left: 400px;
+    background-color: orange;
+    width:322px;
+    height: 38px;
+}
+
+/*this color for middle page*/
+.greyBox { 
+    background: #ececec;
+    border-radius: 6px;
+    padding: 20px;
+}
+.button_design_orange{
+    width: 8em;  height: 3em;
+    background-color:#e2534b;
+}
+.button_design_green{
+    width: 8em;  height: 3em;
+    background-color:  rgba(98,185,176,0.8);
+}
+.font_h3_some{
+    color: #7f8c8c;
+}
+.whithbox{
+    /*    width: 273px;*/
+    height: 313px;
+    background-color: rgb(248,248,248);
+    border-radius: 6px;
+    padding-top: 50px;
+}
+/*hover*/
+.nav_hover:hover .nav_color{
+    background-color: #e2534b;
+    color: white;
+}
+.nav_color1{
+    background-color: rgba(98,185,176,0.8);
+}
+.nav_hover_green:hover .colorframe{
+    /*    background-color: pink;*/
+    background-color: rgba(98,185,176,0.8);
+    color: white;
+}
+.carousel-indicators li{
+    border-radius: 1px;
+    width:50px;
+    background-color: gray;
+}
+.carousel-indicators .active{
+    background-color: #e2534b;
+    border-radius: 1px;
+    width:50px;
+}
+middle_font{ 
+    bottom: 0px;
+}
+.font_hover:hover .icon_middle{
+    color:#e2534b;
+}
+.button_hover:hover .button_design_green{
+    background-color: #e2534b;
+}
+.icon_middle{
+    color: rgba(98,185,176,0.8);
+}
+.arrow_red{
+    color:red;
+}
+.red_font{
+    color:#e2534b;
+}
+.red_backcolor{
+    background-color:  #e2534b;
+}
+.information_middle{
+    background-color:#f3f3f3;
+}
+.information_middle_1{
+    background-color: rgb(236,236,236);
+}
+.information_bubble_think
+{   
+    background: url("../images/Path_1.png") no-repeat;
+    background-size: auto;
+    width: 273px;
+    height: 147px;
+}
+.information_ruller_middle
+{
+    background: url("../images/Path_0.png") no-repeat;
+    background-position: 0px -2px;
+}
+/*in the middle end*/
+.information_ruller_down
+{
+    background: url("../images/Path.png") no-repeat;
+    background-position: 0px -2px;
+    background-color: rgba(98,185,176,0.8);
+}
+.containersize{
+    height: 500px;
+    position: relative;
+}
+/*for "your image"*/
+.information_pic_center{
+    background: url("../images/Browsertooenterls.png") no-repeat;
+    width: 570px;
+    height: 360px;
+    left: 0;bottom: 0;top:0;margin: auto;right: 0;
+    position: absolute;
+}
+.information_pic_left{
+    background: url("../images/Browserleft.png") no-repeat;
+    background-color: rgba(98,185,176,0.8);
+    width: 370px;
+    height: 259px;
+    left: 0;bottom: 0;top:0;margin: auto;
+    position: absolute;
+}
+.information_pic_right{
+    background: url("../images/Browserright.png") no-repeat;
+    width: 370px;
+    height: 259px;
+    right: 0;bottom: 0;top:0;margin: auto;
+    position: absolute;
+    overflow-x: hidden;
+}
+.color_gray_center{
+    color: #7f8c8c;
+}
+/*in the middle end*/
+.font_middle
+{ 
+    color: rgba(0,0,0,0.5);
+}
+
+/*for footer----------------------------------------------------*/
+.typeSize{
+    color: white;
+}
+/*icon of footer*/
+.icon{
+    color: white;
+}
+/*space between icons in footer*/
+.space_icon{
+    margin-left: 10px;
+}
+.footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #62b9b0;
+}
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    position: relative;
+    /*    margin: 0;*/
+    min-height: 100%;
+}
