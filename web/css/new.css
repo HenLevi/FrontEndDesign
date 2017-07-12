@@ -76,6 +76,13 @@ and open the template in the editor.
     border-radius: 6px;
     padding-top: 50px;
 }
+.nav_design{
+   float: right;
+   vertical-align: middle;
+}
+
+
+
 /*hover*/
 .nav_hover:hover .nav_color{
     background-color: #e2534b;
@@ -102,6 +109,100 @@ and open the template in the editor.
 middle_font{ 
     bottom: 0px;
 }
+
+
+.info_mid_design{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.greyBox_design{
+    margin-bottom: 30px;
+}
+
+.some_design{
+    border-radius: 20px;
+}
+.forButton_design{
+   padding-top: 25px;
+}
+.color_design{
+    color:white;
+}
+.white_design{
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.orangeButton_design{
+   border-radius: 5px;
+}
+.buttonGreen_Desgin{
+    border-radius: 5px;
+    margin-top: 90px;
+}
+.readMore_Design{
+    color:white;
+}
+.whiteBox_Desgin{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.buttonGreen_designB{
+    border-radius: 5px;
+    margin-top: 70px;
+}
+.readDesign{
+    color:white;
+}
+
+.whiteBox_Desgin_B{
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.buttonGreenD{
+    border-radius: 5px;
+    margin-top: 70px;
+}
+.whiteDesignC{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.buttonGreenL{
+     border-radius: 5px;
+     margin-top: 90px;
+}
+.middle_Design{
+    padding-bottom: 70px;
+}
+.infoDesign{
+   color: #7f8c8c;
+}
+.h5_design{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.h4_design{
+    padding-left: 70px;
+    margin-top: 40px;
+}
+.infoRuller_design{
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.typeSizeDesign{
+   vertical-align: central;
+}
+
+
+
+
+
+
+
+
+
 .font_hover:hover .icon_middle{
     color:#e2534b;
 }
